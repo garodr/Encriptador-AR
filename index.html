@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<script type="text/javascript" src="./script.js"></script>
+	<title>Challenge 1</title>
+</head>
+<body>
+	<div class="container">
+		<div class="logo">
+			<img class="imgLogo" src="imagenes/logo.png" alt="Logo Alura">
+			<h1 class="title">Encriptador de Mensajes</h1>
+		</div>
+
+		<div class="izquierda">
+			<input id="ingreso-texto" class="input-tex" type="text" name="" placeholder="Ingrese el texto aquí">
+
+		</div>
+
+		<div class="derecha">
+			<img id="imgMuñeco" class="imgMuñeco" src="imagenes/Muñeco.png" alt="Imagen Muñeco">
+			<h2 id="texto-1" class="texto-1">Ningún mensaje fue encontrado</h2>
+			<textarea id="texto-2" class="texto-2" name="name" rows="6" cols="8">Ingrese el texto a encriptar o desencriptar</textarea>
+			<button class="btn-copiar" type="button" name="button" id="copiar" onclick="copiar()">Copiar</button>
+		</div>
+
+		<div class="advertencia">
+		<img class="imgExcla" src="imagenes/excla.png" alt="Imagen exclamación">
+		<p class="texto-3">Solo letras minúsculas y sin acentos</p>
+		</div>
+
+		<div class="left-button">
+		<button type="button" class="btn-encriptar" onclick="encriptar()">Encriptar</button>
+		<button type="button" class="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+		</div>
+	</div>
+<footer class="footer">© Adrian Rodriguez - Alura </footer>
+	
+
+
+
+
+	
+</body>
